@@ -1,0 +1,44 @@
+.contenedorCiudad {
+  display: flex;
+  border: 1px solid salmon;
+  border-radius: 10px 15px 10px 15px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.titulo {
+  font-size: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  gap:10px;
+  border: 1px solid salmon;
+  border-radius: 10px 15px 10px 15px;
+  flex-grow: 50px;
+  align-items: flex-start;
+  font-family:sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+/* .temp {
+}
+.temp>{
+    font-size: 100px;
+}
+.clima {
+}
+.viento {
+}
+.nubes {
+}
+.latitud {
+}
+.longitud {
+}
+.mapa {
+  display: flex;
+
+} */

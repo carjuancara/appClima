@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+  background-image: url('../containers/fondo.jpg')
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+}
+/* 
+body{
+  background-color: antiquewhite;
+}
+  
+.App {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+ */
