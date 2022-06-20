@@ -14,7 +14,7 @@ function App() {
   }
   function onSearch(ciudad) {
     //Llamado a la API del clima
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&units=metric&appid=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&units=metric&appid=${process.env.REACT_APP_APIKEY}`)
       .then(r => r.json())
       .then((recurso) => {
         console.log(recurso.main)
